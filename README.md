@@ -24,6 +24,32 @@ O objetivo desse projeto é criar uma plataforma para o coletivo <elasCodam> [..
     - `git pull`
     - `git checkout -b elas-codam/feat/navbar`
 
+## Padrão de pastas e arquivos
+
+```
+├── frontend
+├── src 
+│    └── assets (arquivos estáticos: imagens, animações)
+│    └── components (componentes que serão compartilhados por diferentes páginas)
+│           └── Header
+│                  └── index.js
+│                  └── styles.js
+│           └── index.js (exportar todos juntos de uma vez)
+│    └── pages (páginas)
+│           └── Home
+│                 └── index.jsx
+│                 └── styles.js
+│           └── About
+│                 └── index.jsx
+│                 └── styles.js
+│          └── index.js (exportar todos juntos de uma vez)
+│    └── store (arquivos relacionados com redux, context, hooks)
+│    └── services (arquivos de chamadas de api)
+├── index.js
+├── routes.js (arquivo que centraliza todas as rotas)
+```
+[📹 Exemplo](https://www.youtube.com/watch?v=X2RKRKdqqwM&t=475s&ab_channel=Rocketseat)
+
 ## Links importantes
 
 [🎨️ Figma](https://www.figma.com/file/lRqtIDmLCE8yFretGllL30/ElasCodam?node-id=0%3A1)
