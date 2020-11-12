@@ -61,3 +61,4 @@ Ao criar um novo PR lembre-se sempre de apontar para a branch `elas-codam/develo
 [🎨️ Figma](https://www.figma.com/file/lRqtIDmLCE8yFretGllL30/ElasCodam?node-id=0%3A1)
 
 [📌 Asana](https://app.asana.com/0/1199088101620917/board)
+
