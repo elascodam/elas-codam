@@ -53,8 +53,8 @@ O objetivo desse projeto é criar uma plataforma para o coletivo <elasCodam> [..
 ## Pull Requests
 
 Ao criar um novo PR lembre-se sempre de apontar para a branch `elas-codam/develop`
-<img src="" width="50%"
-  alt="exemplo" />
+<img src="https://github.com/elascodam/elas-codam/blob/main/uploads/PR.png" width="35%"
+  alt="exemplo pull request" />
 
 ## Links importantes
 
