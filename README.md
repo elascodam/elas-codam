@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Elas Codam 👩‍💻
 
-## Available Scripts
+O objetivo desse projeto é criar uma plataforma para o coletivo <elasCodam> [...]
 
-In the project directory, you can run:
 
-### `yarn start`
+  >**Deseja participar?**:
+  Caso tenha interesse em saber mais ou participar do coletivo entre em contato por codamelas@gmail.com
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Setup inicial ⚙️
+1. Clone o repositório em sua máquina.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+2. Rode npm install para instalar as dependências. 
 
-### `yarn test`
+## Padrão de branches e commits
+### Nome das branches
+  O fluxo de desenvolvimento deve seguir o padrão [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/), então uma nova branch deve sempre derivar de `elas-codam/develop`. O padrão de nome de branches deve ser como abaixo:
+  
+  `elas-codam/<FEAT | FIX | DOC ... >/<task-numero da task>`
+  
+  **Ex:**
+  - Adicionar a navbar:
+  
+    - `git checkout elas-codam/develop`
+    - `git pull`
+    - `git checkout -b elas-codam/feat/task-2`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Padrão de pastas e arquivos
 
-### `yarn build`
+```
+├── frontend
+├── src 
+│    └── assets (arquivos estáticos: imagens, animações)
+│    └── components (componentes que serão compartilhados por diferentes páginas)
+│           └── Header
+│                  └── Header.jsx
+│                  └── styles.js
+│           └── index.js (exportar todos juntos de uma vez)
+│    └── pages (páginas)
+│           └── Home
+│                 └── Home.jsx
+│                 └── styles.js
+│           └── AboutUs
+│                 └── AboutUs.jsx
+│                 └── styles.js
+│          └── index.js (exportar todos juntos de uma vez)
+│    └── store (arquivos relacionados com redux, context, hooks)
+│    └── services (arquivos de chamadas de api)
+├── index.js
+├── routes.js (arquivo que centraliza todas as rotas)
+```
+[📹 Exemplo](https://www.youtube.com/watch?v=X2RKRKdqqwM&t=475s&ab_channel=Rocketseat)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Pull Requests
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Ao criar um novo PR lembre-se sempre de apontar para a branch `elas-codam/develop`
+<img src="" width="50%"
+  alt="exemplo" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Links importantes
 
-### `yarn eject`
+[🎨️ Figma](https://www.figma.com/file/lRqtIDmLCE8yFretGllL30/ElasCodam?node-id=0%3A1)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[📌 Asana](https://app.asana.com/0/1199088101620917/board)
