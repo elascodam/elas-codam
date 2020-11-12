@@ -50,8 +50,15 @@ O objetivo desse projeto é criar uma plataforma para o coletivo <elasCodam> [..
 ```
 [📹 Exemplo](https://www.youtube.com/watch?v=X2RKRKdqqwM&t=475s&ab_channel=Rocketseat)
 
+## Pull Requests
+
+Ao criar um novo PR lembre-se sempre de apontar para a branch `elas-codam/develop`
+<img src="" width="50%"
+  alt="exemplo" />
+
 ## Links importantes
 
 [🎨️ Figma](https://www.figma.com/file/lRqtIDmLCE8yFretGllL30/ElasCodam?node-id=0%3A1)
 
 [📌 Asana](https://app.asana.com/0/1199088101620917/board)
+
