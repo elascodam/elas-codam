@@ -15,14 +15,14 @@ O objetivo desse projeto é criar uma plataforma para o coletivo <elasCodam> [..
 ### Nome das branches
   O fluxo de desenvolvimento deve seguir o padrão [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/), então uma nova branch deve sempre derivar de `elas-codam/develop`. O padrão de nome de branches deve ser como abaixo:
   
-  `elas-codam/<FEAT | FIX | DOC ... >/<Alguma característica da tarefa>`
+  `elas-codam/<FEAT | FIX | DOC ... >/<task-numero da task>`
   
   **Ex:**
   - Adicionar a navbar:
   
     - `git checkout elas-codam/develop`
     - `git pull`
-    - `git checkout -b elas-codam/feat/navbar`
+    - `git checkout -b elas-codam/feat/task-2`
 
 ## Padrão de pastas e arquivos
 
@@ -32,15 +32,15 @@ O objetivo desse projeto é criar uma plataforma para o coletivo <elasCodam> [..
 │    └── assets (arquivos estáticos: imagens, animações)
 │    └── components (componentes que serão compartilhados por diferentes páginas)
 │           └── Header
-│                  └── index.js
+│                  └── Header.jsx
 │                  └── styles.js
 │           └── index.js (exportar todos juntos de uma vez)
 │    └── pages (páginas)
 │           └── Home
-│                 └── index.jsx
+│                 └── Home.jsx
 │                 └── styles.js
-│           └── About
-│                 └── index.jsx
+│           └── AboutUs
+│                 └── AboutUs.jsx
 │                 └── styles.js
 │          └── index.js (exportar todos juntos de uma vez)
 │    └── store (arquivos relacionados com redux, context, hooks)
