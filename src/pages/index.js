@@ -1,3 +1,7 @@
-// Exportação dos componentes
-// exemplo
-// export { default as Home } from './Home/Home';
+import Home from './Home/Home';
+import AboutUs from './AboutUs/AboutUs';
+
+export {
+  Home,
+  AboutUs,
+}
