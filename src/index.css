@@ -16,4 +16,11 @@ code {
   --roxo-elas: #7D49AA;
   --amarelo-elas: #F3C677;
   --verde-elas: #0FA36B;
+  --preto-elas: #313131;
+}
+
+/* Tipografia */
+h1, h2, h3, h4, h5, h6, p, label, a {
+  font-family: Roboto, sans-serif;
+  color: var(--preto-elas);
 }

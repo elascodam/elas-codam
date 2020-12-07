@@ -6,7 +6,8 @@ import FaleComElasForms from './pages/ContactUs/ContactUs';
 const Routes = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={FaleComElasForms} />
+      <Route exact path="/" component={Home} />
+      <Route path="/contact" component={FaleComElasForms} />
     </Switch>
   </BrowserRouter>
 );
