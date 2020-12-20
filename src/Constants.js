@@ -7,3 +7,11 @@ export const IntroText = {
 export const ButtonsText = {
   KnowMore: "Saiba Mais",
 };
+
+export const LinksText = {
+  Home: "Home",
+  SobreElas: "Sobre Elas",
+  PapoDelas: "Papo Delas",
+  ElasIndicam: "Elas Indicam",
+  Contato: "Contato",
+};

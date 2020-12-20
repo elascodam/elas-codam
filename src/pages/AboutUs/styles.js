@@ -1,1 +1,1 @@
-// aqui vai o styled components
+// aqui vai o styled components do about us
