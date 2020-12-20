@@ -28,10 +28,6 @@ export const NavBar = styled.nav`
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-
-  @media (max-width: 400px) {
-    display: none;
-  }
 `;
 
 export const RedirectLink = styled.a`

@@ -1,7 +1,7 @@
 import React from "react";
 import { HeaderContainer, Logo, NavBar, RedirectLink } from "./styles";
 import LogoEC from "../../assets/logo-elas-codam.svg";
-import { LinksText } from "../../Constants";
+import { Pages } from "../../Constants";
 
 const Header = () => {
   return (
@@ -11,13 +11,11 @@ const Header = () => {
         alt="Logomarca: Elas Codam escrito entre símbolos de maior e menor"
       />
       <NavBar>
-        <RedirectLink href="/">{LinksText.Home}</RedirectLink>
-        <RedirectLink href="/sobre-elas">{LinksText.SobreElas}</RedirectLink>
-        <RedirectLink href="/papo-delas">{LinksText.PapoDelas}</RedirectLink>
-        <RedirectLink href="/elas-indicam">
-          {LinksText.ElasIndicam}
-        </RedirectLink>
-        <RedirectLink href="/contato">{LinksText.Contato}</RedirectLink>
+        <RedirectLink href="/">{Pages.Home}</RedirectLink>
+        <RedirectLink href="/sobre-elas">{Pages.SobreElas}</RedirectLink>
+        <RedirectLink href="/papo-delas">{Pages.PapoDelas}</RedirectLink>
+        <RedirectLink href="/elas-indicam">{Pages.ElasIndicam}</RedirectLink>
+        <RedirectLink href="/contato">{Pages.Contato}</RedirectLink>
       </NavBar>
     </HeaderContainer>
   );
