@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
-export const HeaderContainer = styled.footer`
-  background: blue;
+export const FooterContainer = styled.footer`
+  background: lightsalmon;
   padding: 32px 16px;
   color: white;
   text-align: center;
-  width: 100%;
 
   @media (max-width: 800px) {
     margin-bottom: 50px;
