@@ -2,10 +2,10 @@ import React from "react";
 import { PageTemplate } from "../../componets";
 import { Pages } from "../../Constants";
 
-const AboutUs = () => (
-  <PageTemplate page={Pages.SobreElas}>
-    <h1>Sobre nós</h1>
+const ElasIndicam = () => (
+  <PageTemplate page={Pages.ElasIndicam}>
+    <h1>ElasIndicam</h1>
   </PageTemplate>
 );
 
-export default AboutUs;
+export default ElasIndicam;

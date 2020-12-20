@@ -1,9 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Paragraph = styled.p`
-  color: #313131;
-  font-family: Roboto, sans serif;
-  font-size: ${props => props.fontSize ? props.fontSize : "20px"};
+  color: var(--DARK_GRAY);
+  font-size: ${(props) => (props.fontSize ? props.fontSize : "20px")};
   text-align: center;
 
   @media (max-width: 1100px) {
@@ -21,12 +20,11 @@ export const Paragraph = styled.p`
 `;
 
 export const IntroButton = styled.button`
-  background-color: #0FA36B;
+  background-color: var(--GREEN);
   border-radius: 8px;
   border-style: none;
-  color: white;
+  color: var(--WHITE);
   display: flex;
-  font-family: Roboto, sans serif;
   font-size: 16px;
   font-weight: 500;
   justify-content: center;
@@ -42,13 +40,12 @@ export const IntroButton = styled.button`
   @media (max-width: 400px) {
     font-size: 12px;
     padding: 5px 8px;
-
   }
 `;
 
 export const RedirectLink = styled.a`
   text-decoration: none;
-`
+`;
 
 export const WomanImage = styled.img`
   margin: 0 70px 30px 0;
@@ -65,7 +62,7 @@ export const WomanImage = styled.img`
   @media (max-width: 400px) {
     display: none;
   }
-`
+`;
 
 export const TextContainer = styled.div`
   display: flex;
@@ -85,11 +82,11 @@ export const TextContainer = styled.div`
     margin: 0 auto;
     width: 40vw;
   }
-}
-`
+`;
+
 export const IntroContainer = styled.div`
-  border-bottom: 4px dashed #27AE60;
+  border-bottom: 4px dashed var(--LIME_GREEN);
   display: flex;
   margin: auto;
   width: 95vw;
-`
+`;

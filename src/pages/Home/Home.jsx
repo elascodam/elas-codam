@@ -1,11 +1,13 @@
-import React from 'react';
-import { IntroElasCodam } from '../../componets';
-import { HomeContainer } from './styles';
+import React from "react";
+import { PageTemplate, IntroElasCodam } from "../../componets";
+import { HomeContainer } from "./styles";
 
 const Home = () => (
-  <HomeContainer>
-    <IntroElasCodam />
-  </HomeContainer>
+  <PageTemplate>
+    <HomeContainer>
+      <IntroElasCodam />
+    </HomeContainer>
+  </PageTemplate>
 );
 
 export default Home;
