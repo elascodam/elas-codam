@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeaderContainer = styled.footer`
+export const HeaderContainer = styled.header`
   background: blue;
   padding: 32px 16px;
   color: white;
