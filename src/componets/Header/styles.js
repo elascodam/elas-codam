@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-  background: blue;
+  background: var(--DARK_GRAY);
   padding: 32px 16px;
-  color: white;
+  color: var(--WHITE);
   text-align: center;
   width: 100%;
 

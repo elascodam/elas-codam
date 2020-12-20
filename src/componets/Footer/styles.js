@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
-  background: lightsalmon;
+  background: var(--VIOLET);
   padding: 32px 16px;
-  color: white;
+  color: var(--WHITE);
   text-align: center;
 
   @media (max-width: 800px) {
