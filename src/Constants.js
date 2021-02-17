@@ -25,3 +25,12 @@ export const ContactURLs = {
 };
 
 export const Email = "mailto:codamelas@gmail.com";
+
+
+/* Sobre Elas */
+export const SobreElasText = {
+  Title:
+  "Sobre Elas",
+  Paragraph1:
+  "Somos um coletivo de mulheres que estudam programação e que atuam no mercado de tecnologia. Esse grupo surgiu de uma iniciativa de alunas da Trybe, mas está aberto à todas as mulheres que se interessem em participar."
+}
