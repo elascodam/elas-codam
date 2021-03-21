@@ -40,7 +40,5 @@ export const ElasIndicamText = {
   Title:
   "ElasIndicam",
   Paragraph1:
-  "O ElasIndicam é uma iniciativa que visa democratizar o acesso à informação e permitir que mulheres interessadas em TI tenham um norte sobre onde começar a aprender e se desenvolver.",
-  Paragraph2:
-  "Nesse quadro compartilhamos conteúdos tecnológicos, pesquisas sobre a área e também dicas sobre carreira, soft skills e até filmes que achamos legais, porque nem só de código vivem as pessoas da área de tecnologia ."
+  "O ElasIndicam é uma iniciativa que visa democratizar o acesso à informação e permitir que mulheres interessadas em TI tenham um norte sobre onde começar a aprender e se desenvolver. Nesse quadro compartilhamos conteúdos tecnológicos, pesquisas sobre a área e também dicas sobre carreira, soft skills e até filmes que achamos legais, porque nem só de código vivem as pessoas da área de tecnologia .",
 }
