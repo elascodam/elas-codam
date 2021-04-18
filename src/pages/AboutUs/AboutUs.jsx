@@ -1,5 +1,5 @@
 import React from "react";
-import { PageTemplate, IntroSobreElas } from "../../componets";
+import { PageTemplate, IntroSobreElas, InstitutionalValues } from "../../componets";
 import { Pages, SobreElasText } from "../../Constants";
 import {
   Span,
@@ -16,6 +16,7 @@ const AboutUs = () => (
       <Span fontSize="60px">&gt;</Span>
     </Title>
     <IntroSobreElas />
+    <InstitutionalValues />
     </AboutUsContainer>
   </PageTemplate>
 );
