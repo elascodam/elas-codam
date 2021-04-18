@@ -24,6 +24,12 @@ color: var(--VIOLET);
   }
 `;
 
+export const PapoDelasContainer = styled.div`
+  margin: 0;
+  padding: 0;
+`;
+
+
 export const Span = styled.span`
 color: var(--SOFT_ORANGE);
   font-size: ${(props) => (props.fontSize ? props.fontSize : "20px")};
@@ -44,7 +50,7 @@ color: var(--SOFT_ORANGE);
   }
 `;
 
-export const TextContainer = styled.div`
+/* export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,3 +88,4 @@ export const Paragraph = styled.p`
     font-size: 12px;
   }
 `
+ */
