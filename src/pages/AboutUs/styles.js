@@ -1,6 +1,11 @@
 // aqui vai o styled components do about us
 import styled from "styled-components";
 
+export const AboutUsContainer = styled.div`
+  margin: 0;
+  padding: 0;
+`;
+
 export const Title = styled.span`
 color: var(--VIOLET);
   font-size: ${(props) => (props.fontSize ? props.fontSize : "20px")};
@@ -44,7 +49,7 @@ color: var(--SOFT_ORANGE);
   }
 `;
 
-export const Paragraph = styled.p`
+/* export const Paragraph = styled.p`
   color: var(--SOFT_ORANGE);
   font-size: ${(props) => (props.fontSize ? props.fontSize : "20px")};
   text-align: center;
@@ -82,3 +87,4 @@ export const TextContainer = styled.div`
     width: 40vw;
   }
 `;
+ */
