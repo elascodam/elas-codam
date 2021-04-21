@@ -52,3 +52,10 @@ export const PurposeText = {
   "Ser uma referência de direcionamento e apoio para mulheres que estão ou desejam ingressar na área de tecnologia, visando aumentar sua representatividade no mercado."
 }
 
+/* Elas Indicam */
+export const ElasIndicamText = {
+  Title:
+  "ElasIndicam",
+  Paragraph1:
+  "O ElasIndicam é uma iniciativa que visa democratizar o acesso à informação e permitir que mulheres interessadas em TI tenham um norte sobre onde começar a aprender e se desenvolver. Nesse quadro compartilhamos conteúdos tecnológicos, pesquisas sobre a área e também dicas sobre carreira, soft skills e até filmes que achamos legais, porque nem só de código vivem as pessoas da área de tecnologia .",
+}

@@ -4,3 +4,4 @@ export { default as Footer } from "./Footer/Footer";
 export { default as PageTemplate } from "./PageTemplate/PageTemplate";
 export { default as IntroSobreElas } from "./IntroSobreElas/IntroSobreElas.jsx";
 export { default as InstitutionalValues } from "./InstitutionalValues/InstitutionalValues.jsx";
+export { default as IntroPapoDelas } from "./IntroPapoDelas/IntroPapoDelas";
