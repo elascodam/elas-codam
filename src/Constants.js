@@ -59,3 +59,13 @@ export const ElasIndicamText = {
   Paragraph1:
   "O ElasIndicam é uma iniciativa que visa democratizar o acesso à informação e permitir que mulheres interessadas em TI tenham um norte sobre onde começar a aprender e se desenvolver. Nesse quadro compartilhamos conteúdos tecnológicos, pesquisas sobre a área e também dicas sobre carreira, soft skills e até filmes que achamos legais, porque nem só de código vivem as pessoas da área de tecnologia .",
 }
+
+/* Papo Delas */
+export const PapoDelasText = {
+  Title:
+  "PapoDelas",
+  Paragraph1:
+  "O PapoDelas é um evento onde recebemos uma convidada para debates e apresentações sobre a área de tecnologia e também sobre temáticas sociais, como machismo e transfobia.",
+  Paragraph2:
+  "Com esse evento visamos criar um espaço para que mulheres que queiram compartilhar seus conhecimentos se conectem com aquelas que estão interessadas em aprender, disseminando conhecimento e aumentando a representatividade no mercado tecnológico."
+}
