@@ -1,10 +1,23 @@
 import React from "react";
 import { PageTemplate } from "../../componets";
-import { Pages } from "../../Constants";
+import { Paragraph } from "../../componets/IntroElasCodam/styles";
+import { ElasIndicamText, Pages } from "../../Constants";
+import {
+  Title,
+  Span,
+  TextContainer
+} from './styles';
 
 const ElasIndicam = () => (
   <PageTemplate page={Pages.ElasIndicam}>
-    <h1>ElasIndicam</h1>
+    <Title fontSize="60px">
+      <Span fontSize="60px">&lt;</Span>
+        {ElasIndicamText.Title}
+        <Span fontSize="60px">&gt;</Span>
+    </Title>
+    <TextContainer>
+      <Paragraph fontSize="40px">{ElasIndicamText.Paragraph1}</Paragraph>
+    </TextContainer>
   </PageTemplate>
 );
 

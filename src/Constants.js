@@ -35,11 +35,10 @@ export const SobreElasText = {
   "Somos um coletivo de mulheres que estudam programação e que atuam no mercado de tecnologia. Esse grupo surgiu de uma iniciativa de alunas da Trybe, mas está aberto à todas as mulheres que se interessem em participar."
 }
 
-export const PapoDelasText = {
+/* Sobre Elas */
+export const ElasIndicamText = {
   Title:
-  "PapoDelas",
+  "ElasIndicam",
   Paragraph1:
-  "O PapoDelas é um evento onde recebemos uma convidada para debates e apresentações sobre a área de tecnologia e também sobre temáticas sociais, como machismo e transfobia.",
-  Paragraph2:
-  "Com esse evento visamos criar um espaço para que mulheres que queiram compartilhar seus conhecimentos se conectem com aquelas que estão interessadas em aprender, disseminando conhecimento e aumentando a representatividade no mercado tecnológico."
+  "O ElasIndicam é uma iniciativa que visa democratizar o acesso à informação e permitir que mulheres interessadas em TI tenham um norte sobre onde começar a aprender e se desenvolver. Nesse quadro compartilhamos conteúdos tecnológicos, pesquisas sobre a área e também dicas sobre carreira, soft skills e até filmes que achamos legais, porque nem só de código vivem as pessoas da área de tecnologia .",
 }
