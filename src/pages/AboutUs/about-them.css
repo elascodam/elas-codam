@@ -1,0 +1,16 @@
+.symbol {
+  color: #f3c677;
+}
+
+.sobre-elas-title {
+  color: #7e49aa;
+  text-align: center;
+  padding: 3%;
+}
+
+.text-section {
+  background-color: #7e49aa;
+  color: #f3c677;
+  padding: 5% 10%;
+  font-size: 24px;
+}
